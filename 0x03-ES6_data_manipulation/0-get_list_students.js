@@ -22,4 +22,4 @@ export default function getListStudents() {
   myarray.push(obj2);
   myarray.push(obj3);
   return myarray;
-} 
+}
