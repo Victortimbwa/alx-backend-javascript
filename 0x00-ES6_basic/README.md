@@ -1,1 +1,3 @@
-Const or let?
+==========================
+This is ALX JavaScript backend
+==========================
