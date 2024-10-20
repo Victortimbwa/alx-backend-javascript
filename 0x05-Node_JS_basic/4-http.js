@@ -4,9 +4,9 @@ const hostname = 'localhost';
 const port = 1245;
 
 const app = http.createServer((req, res) => {
+  res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   res.end('Hello Holberton School!\n');
-  res.statusCode = 200;
 });
 
 app.listen(port, hostname, () => {
